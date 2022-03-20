@@ -8,7 +8,7 @@ import (
 
 type Menu struct {
 	Id        primitive.ObjectID `bson:"_id"`
-	ManuId    string             `json:"menu_id" validate:"required"`
+	MenuId    string             `json:"menu_id" validate:"required"`
 	Name      string             `json:"name" validate:"required"`
 	Category  string             `json:"category" validate:"required"`
 	StartDate *time.Time         `json:"start_date"`
